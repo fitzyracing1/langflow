@@ -52,8 +52,8 @@ jobs:
             src/backend/tests/unit/test_chat_endpoint.py \
             src/backend/tests/unit/api/v1/test_api_key.py \
             src/backend/tests/unit/api/v1/test_endpoints.py \
-            src/backend/tests/unit/components/languagemodels/test_openai_model.py \
-            src/backend/tests/unit/components/agents/test_agent_component.py \
+            src/bundles/openai/tests/test_openai_model.py \
+            src/backend/tests/unit/components/models_and_agents/test_agent_component.py \
             src/backend/tests/unit/services/tracing/test_tracing_service.py \
             -m 'not api_key_required' \
             --tb=short \
